@@ -36,7 +36,7 @@ class SingletonApplicationTest {
 
     /*
      * Counter bisa dilakukan dalam waktu bersamaan sehingga hasil bisa kurang dari 2_000_000
-     * untuk menghindari ini bisa ditambahkan synzhronized di method increment
+     * untuk menghindari ini bisa ditambahkan synchronized di method increment
      */
     @Test
     void incrementRaceCoindition() throws InterruptedException {
